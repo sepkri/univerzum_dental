@@ -229,6 +229,11 @@ p {
     color: white;
 }
 
+#about .section-title{
+	font-weight: 800;
+	color: #001f63;
+}
+
 #about .container{
 	
 	  margin: auto;
