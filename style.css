@@ -83,7 +83,8 @@ p {
     position: absolute;
     background-color: #001f63;
     width: 100vw;
-    height: 100vh;    left: 100%;
+    height: 100vh;
+    left: 100%;
     top: 0;
     display: flex;
     flex-direction: column;
@@ -104,7 +105,7 @@ p {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    padding:  0px 20px;
+    padding:  20px 20px;
     display: block;
 
 }
@@ -125,7 +126,8 @@ p {
     letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-    color: black;
+    text-align: center;
+    color: #003096;
 }
 #header .hamburger {
     height: 60px;
@@ -396,7 +398,7 @@ p {
 }
 /* Dentalmechanic section */
 /* End Projects section */
-/* covid section */
+
 .projects {
     flex-direction: column;
     max-width: 98%;
@@ -499,7 +501,7 @@ p {
 .project-item:hover .project-img img {
     transform: scale(1.2);
 }
-/* End covid section */
+
 /* contact Section */
 #contact .contact {
     flex-direction: column;
@@ -515,20 +517,22 @@ p {
 	
 }
 #contact .contact-item {
-    text-align: center;
     padding: 30px;
     margin: 30px;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content:left;
+    
 	
 }
-#contact .icon {
-   min-width: 70px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-	
+ 
+#contact img{
+    padding: 5px;
+min-width: 75px;
+min-height: 75px;
+max-width: 80px;
+max-height: 80px;
 }
+
 #contact .contact-info h1 {
     font-size: 2.5rem;
     font-weight: 500;
@@ -641,26 +645,26 @@ p {
     #szolgaltatas .all-projects .project-img {
         height: 100%;
     }
-    /* covid19 */
-    #covid19 .project-item {
+    /* protokoll */
+    #protokoll .project-item {
         flex-direction: row;
     }
-    #covid19 .project-item:nth-child(even) {
+    #protokoll .project-item:nth-child(even) {
         flex-direction: row-reverse;
     }
-    #covid19 .project-item {
+    #protokoll .project-item {
         height: 60vh;
         margin: 0;
         width: 100%;
         border-radius: 20px;
     }
-    #covid19 .all-projects .project-info {
+    #protokoll .all-projects .project-info {
         height: 100%;
     }
-    #covid19 .all-projects .project-img {
+    #protokoll .all-projects .project-img {
         height: 100%;
     }
-    /* End covid19 */
+    /* End protokoll */
 	
 	 /* referensz */
     #referensz .project-item {
@@ -681,7 +685,7 @@ p {
     #referensz .all-projects .project-img {
         height: 100%;
     }
-    /* End covid19 */
+    /* End referensz */
 	
 	
 	
@@ -771,12 +775,19 @@ p {
     }
     /* End About */
     /* contact  */
+#contact .openhours h1{
+    text-align: center;
+    
+
+}
+
     #contact .contact {
         flex-direction: column;
         padding: 50px 0;
         align-items: center;
         justify-content: center;
         min-width: 20vh;
+        background-color: #fafafa;
     }
     #contact .contact-items {
         width: 100%;
@@ -793,14 +804,23 @@ p {
     #contact .contact-item .icon {
         height: 100px;
         width: 100px;
+        
     }
     #contact .contact-item .icon img {
-        object-fit: contain;
+        height: 100px;
+        width: 100px;
     }
     #contact .contact-item .contact-info {
         width: 100%;
         text-align: left;
         padding-left: 20px;
+    }
+
+
+    #contact .form{
+        padding-top: 50px;
+        background-color: #fafafa;
+        
     }
     
     /* End contact  */
