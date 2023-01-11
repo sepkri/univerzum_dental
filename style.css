@@ -55,6 +55,7 @@ p {
     font-size: 2.5rem;
     text-transform: uppercase;
     color: white;
+    padding-top: 15px;
 }
 
 /* Header section */
@@ -186,6 +187,8 @@ p {
 .hero {
     background-color: #001f63;
 }
+
+
 .hero-video {
     position: absolute;
     align-items: stretch;
